@@ -1,0 +1,42 @@
+#http.type: ssl_netty4
+readonlyrest:
+    enable: true
+    audit_collector: true
+    audit_include_query: ["data*"]
+    audit_index_template: "'audit_logs'-yyyy-MM"
+    audit_serializer: tech.beshu.ror.requestcontext.QueryAuditLogSerializer
+    #audit_include_query: ["data*"]  
+      
+        
+    ssl:
+       enable: true      
+       keystore_file: "/etc/elasticsearch/keystore.jks"
+       keystore_pass: readonlyrest
+       key_pass: readonlyrest
+
+    access_control_rules:
+    
+    - name: "Require HTTP Basic Auth"
+      type: allow
+      #hosts: [10.0.58.224]
+      auth_key: elastic:'PASSWORD'
+
+    - name: "Logstash can write and create its own indices"
+      auth_key: logstash:'PASSWORD'
+      type: allow
+      hosts: [Local, IP_KIBANA]
+      actions: ["cluster:*", "indices:data/read/*","indices:data/write/*","indices:admin/*"]
+      indices: ["logstash*", "data*", "elas*","<no-index>"]
+
+    - name: "Kibana Admin"
+      auth_key: elastic:'PASSWORD'
+      kibana_access: admin
+      indices: ["logstash*", "data*", "elas*", "audit*", ".kibana*", ".async*", ".apm*",".monitoring*"]
+ 
+    - name: "Kibana User"
+      auth_key: userk:'PASSWORD'
+      type: allow
+      actions: ["cluster:*", "indices:data/read/*", "indices:data/write/audit*"]
+      #kibana_access: admin
+      #indices: [ "data*",  ]
+      #kibana_hide_apps: ["readonlyrest_kbn", "timelion", "kibana:dev_tools", "kibana:management"]
