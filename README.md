@@ -9,7 +9,8 @@ The following image is the result of documental research and the implementation 
 # Table -  List of fields to pseudonymize
 Depending on the beat type, personal data maps to distinct fields. The table illustrates the SIEM fields that may contain personal data.
 
-![tabela](https://user-images.githubusercontent.com/130701154/232048485-4d72b44d-556b-4a49-bf4d-d0b6ec20de78.jpg)
+![imag1](https://user-images.githubusercontent.com/130701154/232053760-ce632691-ff27-4b3b-a7fb-a9d33e354b3e.JPG)
+
 
 # Algorithm  - Log pseudonymization
 Through a test environment for Windows and Linux operating systems, a survey was carried out of the fields to pseudonymize for each Beat, which allowed the creation of the algorithm illustrated in the following image.
