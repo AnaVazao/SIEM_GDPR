@@ -17,6 +17,9 @@ Through a test environment for Windows and Linux operating systems, a survey was
 
 ![Capturar_1](https://user-images.githubusercontent.com/130701154/231874963-05969c78-5cf9-48b0-b66d-2b4b1dc67cca.PNG)
 
+The following link illustrates the algorithm in the server Logstash configuration file for the pipeline:
+
+
 # Videos
 Video illustrating an attack executed on a machine,  the situation anomalous it is identifying, and it's possible to look for the key to identifying the anonymized data. 
 
