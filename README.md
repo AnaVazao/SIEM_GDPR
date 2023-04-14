@@ -27,11 +27,14 @@ The following link illustrates the algorithm in the server Logstash configuratio
 * https://github.com/AnaVazao/SIEM_GDPR/blob/main/Pipeline_Metricas/beats_VF.conf
 
 
-# Videos
+# Video
 Video illustrating an attack executed on a machine,  the situation anomalous it is identifying, and it's possible to look for the key to identifying the anonymized data. 
 
 
 https://user-images.githubusercontent.com/130701154/232077023-f736cac3-3978-41e1-ac3e-21451cba904e.mp4
 
+   
+#
+#To cite this work, please use:
 
-
+Ana Paula Vazão, Leonel Santos, Rogério Luís de C. Costa, Carlos Rabadão. 2023. Implementing and evaluating a GDPR-compliant open-source SIEM solution. To appear.
