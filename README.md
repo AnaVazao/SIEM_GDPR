@@ -19,6 +19,13 @@ Through a test environment for Windows and Linux operating systems, a survey was
 
 The following link illustrates the algorithm in the server Logstash configuration file for the pipeline:
 
+* https://github.com/AnaVazao/SIEM_GDPR/blob/main/prototype/Server_Logstash/beats.conf
+
+
+The following link illustrates the algorithm in the server Logstash configuration file for the pipeline in scenario Metrics:
+
+* https://github.com/AnaVazao/SIEM_GDPR/blob/main/Pipeline_Metricas/beats_VF.conf
+
 
 # Videos
 Video illustrating an attack executed on a machine,  the situation anomalous it is identifying, and it's possible to look for the key to identifying the anonymized data. 
