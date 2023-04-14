@@ -31,3 +31,7 @@ The following link illustrates the algorithm in the server Logstash configuratio
 Video illustrating an attack executed on a machine,  the situation anomalous it is identifying, and it's possible to look for the key to identifying the anonymized data. 
 
 
+https://user-images.githubusercontent.com/130701154/232077023-f736cac3-3978-41e1-ac3e-21451cba904e.mp4
+
+
+
