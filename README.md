@@ -33,7 +33,9 @@ Video illustrating an attack executed on a machine,  the situation anomalous it 
 
 https://user-images.githubusercontent.com/130701154/232077023-f736cac3-3978-41e1-ac3e-21451cba904e.mp4
 
-   
+# Future Work  
+* perform complex analyses using machine learning;
+* ensure real-time updating of threats;
 #
 # To cite this work, please use:
 
