@@ -39,4 +39,4 @@ https://user-images.githubusercontent.com/130701154/232077023-f736cac3-3978-41e1
 #
 # To cite this work, please use:
 
-Ana Paula Vazão, Leonel Santos, Rogério Luís de C. Costa, Carlos Rabadão. 2023. Implementing and evaluating a GDPR-compliant open-source SIEM solution. To appear.
+Ana Paula Vazão, Leonel Santos, Rogério Luís de C. Costa, Carlos Rabadão. (2023). Implementing and evaluating a GDPR-compliant open-source SIEM solution. Journal of Information Security and Applications, 75, 103509. DOI: https://doi.org/10.1016/j.jisa.2023.103509
